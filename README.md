@@ -42,6 +42,6 @@ Numbers and dates get the full set of comparisons (greater/less than), everythin
 
 Internals handle normalizing values and picking the right comparator function based on type. The API is deliberately constrained so you can't do nonsense like "is this string greater than that other string" – basically trying to prevent bugs before they happen.
 
-Below the actual implementation there's a demo (look for the big `====` comment separator) showing how you might use this for form validation or conditional UI logic. The whole thing is in main.ts with zero dependencies, so you can just grab it and drop it in your project. Use the example or delete it, whatever works.
+Below the actual implementation there's a demo (look for the big `////` comment separator) showing how you might use this for form validation or conditional UI logic. The whole thing is in main.ts with zero dependencies, so you can just grab it and drop it in your project. Use the example or delete it, whatever works.
 
 Pretty minimal API overall, but easy to extend if you need more comparison types or localization stuff down the road.
